@@ -159,7 +159,7 @@
     #define BUTTON_PIN 2
     #define BUTTON_PRESSED_STATE 1
 
-    #define BOOTLOADER_WAIT 100
+    #define BOOTLOADER_WAIT 20
 
 
 #elif defined TARGET_GENERIC_F103_PG15
@@ -303,7 +303,7 @@
     #define LED_BANK            GPIOB
     #define LED_PIN             12
     #define LED_ON_STATE        1
-    #define BOOTLOADER_WAIT 100
+    #define BOOTLOADER_WAIT 20
 
     #define BUTTON_BANK      GPIOB
     #define BUTTON_PIN           2
